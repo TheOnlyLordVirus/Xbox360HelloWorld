@@ -44,7 +44,7 @@ int main()
 		// Create the DirectX 9 Device.
 		g_pD3D->CreateDevice(0, D3DDEVTYPE_HAL, NULL, D3DCREATE_HARDWARE_VERTEXPROCESSING, &d3dpp, &g_pDevice);
 
-		// Run this over, and over and over again as fast as the CPU/GPU Allow.
+		// Infinite loop as fast as the CPU/GPU Allow for you to render a frame.
 		while (true)
 		{
 			// Call the render function for our 'Game'
